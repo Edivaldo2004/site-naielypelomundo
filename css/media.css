@@ -1,0 +1,75 @@
+@media screen and (max-width: 800px) { 
+  
+.toggle-menu {
+    display: block;
+    z-index: 100;
+  }
+
+  .navbar{
+  padding: 12px 12px 12px 12px;
+  background-color: #d400ff;
+  color: white;
+    font-size: 12px
+}
+  .navbar-menu{
+  display: none;
+  gap: 50px;
+}
+
+a{
+  text-decoration: none
+}
+
+.button-menu{
+ color: white  
+}
+.img-text{
+  display: flex;
+  margin-top: 4%;
+}
+
+.text{
+  margin-top: 5%;
+  text-align: justify;
+  width: 31%;
+  font-size: 12px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.img1{
+  height: 400px;
+  width: 220px
+}
+
+.second-page{
+  margin-top: 6%
+}
+
+.contacts{
+  margin-top: 8%;
+}
+  .contato-rede-social{
+  margin-top: 10%;
+  text-align: center;
+}
+
+.img-contact{
+  height: 60px;
+  width: 60px;
+}
+
+.contacts-informs{
+  display: flex;
+  gap: 40px;
+  margin-left: 24%;
+  margin-top: 8%
+}
+  
+  #mapa{
+  margin-left: 4%;
+  width: 92%;
+  height: 500px;
+}
+}
